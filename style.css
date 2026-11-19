@@ -1,0 +1,199 @@
+* { 
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+ 
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f4c38e;
+  color: #351b0e;
+}
+
+header {
+   background-color: #351b0e;
+    padding: 15px 50px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000; 
+}
+
+.encabezado { 
+  position: sticky;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  width: 58px;
+  height: 58px;
+}
+
+.encabezado img {
+  position: fixed;
+    width: 120px;
+    height: 120px;
+}
+
+.encabezado nav {
+  display: flex;
+  padding: 0 480%;
+  gap: 40px;
+ 
+}
+
+.encabezado a {
+  text-decoration: none;
+  color: white;
+  font-size: 35px;
+  padding: 12px 25px;
+  border-radius: 30px;
+}
+
+.encabezado a:hover{
+  background-color: #f4c38e;
+  color: #351b0e;
+  
+}
+
+.portada img {
+    width: 100%;
+    display: block;
+    object-fit: cover;
+}
+
+.portada button {
+    position: absolute;
+    bottom: 150px;
+    left: 15%;
+    transform: translateX(-50%);
+
+    background-color: #351b0e;
+    font-size: 80px;
+    font-family: Palace script MT;
+    color: white;
+    padding: 15px 35px;
+    border: 2px solid #351b0e;
+    border-radius: 30px;
+    cursor: pointer;
+    width: auto;
+    z-index: 2;
+}
+
+h2 {
+  text-align: center;
+ font-size: xx-large;
+  
+}
+
+.presentacion h1 {
+  font-family: Palace script MT;
+  font-size: 110px;
+}
+
+.seccion-procutos div {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  font-size: 28px;
+  border-radius: 70px;
+}
+.PRODUCTOS {
+  display: flex;
+  text-align: center;
+  gap: 40px;
+  border: 20px;
+}
+
+.PRODUCTOS ul {
+    display: flex;
+    gap: 25px;
+    list-style: none;
+}
+
+.PRODUCTOS li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border: 2px solid #351b0e;
+    padding: 10px;
+    border-radius: 10px;
+    width: 280px;
+    height: 400px;
+}
+
+.PRODUCTOS button {
+    margin-top: auto;
+    background-color: #351b0e;
+    color: white;
+    border: 2px solid #351b0e;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    gap: 25px;
+}
+  
+
+
+.capuccino img {
+    width: 200px;
+    height: auto;
+}
+
+.ice_latte img {
+    width: 200px;
+    height: auto;
+}
+
+.Croissant img {
+    width: 250px;
+    height: auto;
+}
+
+.Brownie img {
+    width: 250px;
+    height: auto;
+}
+
+.Croissant button {
+   background-color: #351b0e;
+    color: white;
+    border: 2px solid #351b0e;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.ice_latte button {
+   background-color: #351b0e;
+    color: white;
+    border: 2px solid #351b0e;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.capuccino button {
+   background-color: #351b0e;
+    color: white;
+    border: 2px solid #351b0e;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.Brownie button {
+   background-color: #351b0e;
+    color: white;
+    border: 2px solid #351b0e;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #f4c38e;
+    color: #351b0e;
+}
